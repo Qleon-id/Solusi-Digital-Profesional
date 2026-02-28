@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qleon - Solusi Digital Profesional</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans bg-brand-cyan text-brand-navy">
+
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="text-3xl font-extrabold text-brand-maroon tracking-tighter">Qleon<span class="text-brand-navy">.</span></div>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="#services" class="hover:text-brand-maroon transition">Layanan</a>
+                <a href="#keunggulan" class="hover:text-brand-maroon transition">Keunggulan</a>
+                <a href="#founder" class="hover:text-brand-maroon transition">Founder</a>
+                <a href="https://wa.me/6282110197135" class="bg-brand-maroon text-white px-5 py-2.5 rounded-full text-sm hover:bg-red-900 transition">Hubungi Kami</a>
+            </div>
+            <button id="menu-btn" class="md:hidden text-brand-navy focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 p-6 space-y-4 shadow-lg">
+            <a href="#services" class="block font-medium">Layanan</a>
+            <a href="#keunggulan" class="block font-medium">Keunggulan</a>
+            <a href="#founder" class="block font-medium">Founder</a>
+            <a href="https://wa.me/6282110197135" class="block bg-brand-maroon text-white text-center py-3 rounded-xl">Hubungi Kami</a>
+        </div>
+    </header>
+
+    <section class="bg-line-art py-24 md:py-32">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-black text-brand-navy leading-tight tracking-tighter max-w-4xl mx-auto mb-6">
+                Bangun Digital Presence Anda Bersama <span class="text-brand-maroon">Qleon</span>.
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-700 max-w-2xl mx-auto mb-12">
+                Solusi Profesional untuk Website, Desain, dan E-Book dalam Satu Genggaman.
+            </p>
+            <a href="https://wa.me/6282110197135?text=Halo%20Qleon%2C%20saya%20tertarik%20dengan%20layanan%20Anda." 
+               class="inline-block bg-brand-maroon text-white font-semibold text-lg px-10 py-5 rounded-full shadow-lg hover:bg-red-900 transition transform hover:scale-105">
+                Hubungi Kami via WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-center text-sm font-bold text-brand-maroon uppercase tracking-widest mb-3">Layanan Kami</h2>
+            <p class="text-center text-4xl md:text-5xl font-extrabold text-brand-navy tracking-tight mb-16">Ekosistem Digital Terpadu</p>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-offwhite p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-brand-navy/5 text-brand-maroon rounded-full flex items-center justify-center mb-8 border border-brand-maroon/20">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 21h6l-.75-4M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-brand-navy mb-4">Situs Website</h3>
+                    <p class="text-gray-600 mb-6">Mulai dari landing page konversi tinggi hingga platform e-commerce kompleks.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li><span class="text-brand-maroon">✔</span> Landing Page</li>
+                        <li><span class="text-brand-maroon">✔</span> Company Profile</li>
+                    </ul>
+                </div>
+
+                <div class="bg-offwhite p-10 rounded-3xl border border-brand-maroon/20 glow-maroon hover:shadow-2xl transition duration-300">
+                    <div class="w-16 h-16 bg-brand-maroon/5 text-brand-maroon rounded-full flex items-center justify-center mb-8 border border-brand-maroon">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-brand-navy mb-4">Desain Poster</h3>
+                    <p class="text-gray-600 mb-6">Desain visual memukau untuk media sosial dan promosi event.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li><span class="text-brand-maroon">✔</span> Social Media Feeds</li>
+                        <li><span class="text-brand-maroon">✔</span> Branding Kits</li>
+                    </ul>
+                </div>
+
+                <div class="bg-offwhite p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-brand-navy/5 text-brand-maroon rounded-full flex items-center justify-center mb-8 border border-brand-maroon/20">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-brand-navy mb-4">Membuat E-Book</h3>
+                    <p class="text-gray-600 mb-6">Layout profesional dan desain cover menarik untuk produk digital Anda.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li><span class="text-brand-maroon">✔</span> Layouting & Cover</li>
+                        <li><span class="text-brand-maroon">✔</span> PDF Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="keunggulan" class="bg-brand-navy py-16 text-white overflow-hidden">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="flex items-center gap-6">
+                <div class="w-16 h-16 bg-brand-maroon rounded-2xl flex items-center justify-center shadow-lg">
+                    <svg class="w-8 h-8 text-brand-cream" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-extrabold tracking-tighter">Garansi Kepuasan Qleon</h2>
+                    <p class="text-gray-300">Kami berkomitmen untuk hasil terbaik.</p>
+                </div>
+            </div>
+            <div class="text-3xl font-black text-brand-cream border-2 border-dashed border-brand-maroon/50 px-8 py-4 rounded-xl">
+                Gratis Revisi Sampai Jadi!
+            </div>
+        </div>
+    </section>
+
+    <section id="founder" class="py-24 bg-line-art">
+        <div class="container mx-auto px-6">
+            <div class="bg-white p-12 rounded-3xl shadow-xl flex flex-col md:flex-row items-center gap-12 border border-gray-100">
+                <div class="flex-shrink-0">
+                    <img src="https://uploads.onecompiler.io/44ewtxfta/44ewtzn9r/WhatsApp%20Image%202026-02-28%20at%2011.52.45.jpeg" alt="Fiqih Fardhian" class="w-56 h-56 rounded-full object-cover border-8 border-brand-navy glow-navy shadow-lg">
+                </div>
+                <div class="flex-grow">
+                    <h2 class="text-sm font-bold text-brand-maroon uppercase tracking-widest mb-2">Founder</h2>
+                    <h3 class="text-5xl font-black text-brand-navy tracking-tighter mb-4">Fiqih Fardhian</h3>
+                    <p class="text-lg text-gray-700 font-medium mb-6">Berpengalaman sebagai Auditor di Hanna Consulting & Staff Dyris Consulting.</p>
+                    <div class="bg-brand-cream/40 p-6 rounded-2xl border border-gray-100">
+                        <p class="text-gray-800 leading-relaxed font-medium">Di Qleon, estetika bertemu fungsi untuk pertumbuhan bisnis Anda. Fokus kami adalah memberikan nilai maksimal kepada setiap klien.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white border-t border-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-5xl font-black text-brand-navy mb-8 tracking-tighter">Siap Memulai Project Digital?</h2>
+            <p class="text-3xl font-bold text-brand-navy/90 mb-12">📱 0821 1019 7135</p>
+            <a href="https://wa.me/6282110197135" class="inline-block bg-brand-maroon text-white font-semibold text-xl px-12 py-6 rounded-full shadow-lg hover:bg-red-900 transition transform hover:scale-105">
+                Chat WhatsApp Sekarang
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-brand-navy text-gray-400 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-2xl font-extrabold text-white mb-4">Qleon<span class="text-brand-maroon">.</span></p>
+            <p class="text-sm">© 2026 Qleon Digital Agency. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

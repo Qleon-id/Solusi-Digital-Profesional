@@ -1,0 +1,34 @@
+/* Custom Background with subtle patterns */
+.bg-line-art {
+    background-color: #FFF5EE;
+    background-image: radial-gradient(#80000010 1px, transparent 1px);
+    background-size: 30px 30px;
+}
+
+/* Custom Shadows and Glows */
+.glow-navy {
+    box-shadow: 0 10px 30px -5px rgba(0, 31, 63, 0.4);
+}
+
+.glow-maroon {
+    box-shadow: 0 10px 30px -5px rgba(128, 0, 0, 0.1);
+}
+
+/* Colors specifically for use with Tailwind classes */
+.bg-brand-cyan { background-color: #E0FFFF; }
+.bg-offwhite { background-color: #F9F9F9; }
+.text-brand-navy { color: #001F3F; }
+.text-brand-maroon { color: #800000; }
+.text-brand-cream { color: #FFFDD0; }
+.bg-brand-navy { background-color: #001F3F; }
+.bg-brand-maroon { background-color: #800000; }
+
+/* Smooth Navigation */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Font Assignments */
+.font-display {
+    font-family: 'Lexend', sans-serif;
+}
